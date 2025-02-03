@@ -1,0 +1,172 @@
+body{
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(img/wtu8_q2za_210511.jpg);
+    background-size: cover;
+    max-height: 100vh;
+    margin: 0; 
+    padding: 10px 10px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+
+.btn-counter{
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+    width: 100%;
+    padding: 10px 0px;
+    justify-content: center;
+    background-color: #DBBA00;
+    border-radius: 50px;
+    margin-top: 83px;
+    border: 10px solid #FFF;
+    box-sizing: border-box;
+}
+
+.mar{
+    margin-top: 140px;
+    border: 10px solid #FFF;
+    box-sizing: border-box;
+}
+
+.counter-text{
+    color: #FFF;
+}
+
+.btn-counter-img{
+    max-width: 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.counter{
+    margin-left: 65px;
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(255, 224, 50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 93px;
+    border-radius: 1500px;
+    border: 30px solid #FFF;
+    color: rgb(255, 255, 255);
+    position: relative;
+    background-image: url(img/coin-clipart-lg.png);
+    background-size: cover;
+}
+
+.money-one{
+    display: none;
+}
+
+.money-two{
+    transform: rotate(180deg);
+    display: none;
+}
+
+.money-three{
+    transform: rotate(90deg);
+    display: none;
+}
+
+.money-four{
+    transform: rotate(270deg);
+    display: none;
+}
+
+.counter-text{
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+    z-index: 5;
+
+    transition: all 0.3s ease-in;
+}
+
+.grand{
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.allbtn{
+    display: block;
+}
+
+.small{
+    width: 30px;
+}
+
+.left-part{
+    display: flex;
+    align-items: center;
+}
+
+.sto{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 16px 20px;
+    justify-content: space-between;
+    background-color: #DBBA00;
+    border: 10px solid #FFF;
+    border-radius: 50px;
+    font-size: 10px;
+    color: #FFF;
+    margin-top: 7px;
+    -webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.one{
+    margin-top: 73px;
+}
+
+.close{
+    color: #FFF;
+    background-color: #DB5B00;
+}
+
+.shop{
+    color: #FFF;
+    font-weight: 600;
+}
+
+.active{
+    background-color: #c0c0c0;
+    box-shadow: 0px 0px 200px #FFF;
+}
+
+.yes-shop{
+    display: none;
+}
+
+
+@media(max-width: 1000px){
+
+    .counter{
+        max-width: 215px;
+        max-height: 215px;
+        border: 20px solid #FFF;
+        margin-top: 93px;
+    }
+
+}
